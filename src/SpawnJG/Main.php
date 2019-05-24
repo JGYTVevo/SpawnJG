@@ -14,7 +14,7 @@ class Main extends PluginBase implements Listener{
             @mkdir($this->getDataFolder());
         }
         $config = new Config($this->getDataFolder()."config.yml", CONFIG::YAML, array(
-            "SpawnMessage" => "§Teleported you successfully to Server Spawn!"
+            "SpawnMessage" => "§a(!)Teleported you successfully to Spawn(!)"
         ));
     }
 
